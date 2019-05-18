@@ -7,5 +7,5 @@ Esse é o guia de bares e restaurantes para os visitantes da Python Brasil 2019 
 
 #estilo = {'0': 'litrão na calçada', '1':'artesanal no pub', '2':'vinho no cristal', '3': 'não vende bebida alcoolica'}
 
-#rango = {'1':'porções', '2':'lanches', '3':'comida'}
+#rango = {'0':'nao vai te copa', '1':'porções', '2':'lanches', '3':'comida'}
 
