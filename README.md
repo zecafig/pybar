@@ -15,3 +15,4 @@ musica = {'0':'nao tem', '1':'ao vivo - rock & pop', '2':'ao vivo - sertanejo', 
 
 atendimento = {'0':'se vira', '1':'tem garçon mas se vira', '2':'o garçon te atenderá quando der', '3':'bom atendimento'}
 
+comentarios = str(' ')
