@@ -1,0 +1,6 @@
+body {
+  border: 5px solid yellow;
+  background: url("../images/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
