@@ -1,0 +1,33 @@
+h1 {
+  color: blue;
+}
+
+.index {
+  border: 1px solid red;
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.content-index {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: auto;
+  border: 1px solid blue;
+}
+
+.form-index {
+  width: 20%;
+  margin-right: 7%;
+  padding: 0px 0px 5% 0px;
+  padding: 10px;
+}
+
+#beer {
+  size: 400px;
+}
