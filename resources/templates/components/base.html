@@ -4,10 +4,15 @@
     <meta charset="utf-8">
     <title>{% block title %}{% endblock title%}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/base.css') }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% block scripts %}
     {% endblock scripts %}
   </head>
   <body>
+    <img src="../static/images/castanha_2.svg" class="castanha-left-top" alt="">
+    <img src="../static/images/folha_1.svg" class="folha-left-bot" alt="">
+    <img src="../static/images/castanha_1.svg" class="castanha-right-top" alt="">
+    <img src="../static/images/folha_2.svg" class="castanha-right-bot" alt="">
     {% block content %}
     {% endblock content %}
   </body>
