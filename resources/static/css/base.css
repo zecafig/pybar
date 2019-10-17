@@ -1,6 +1,53 @@
+html, body {
+  box-sizing: border-box;
+  height: 100%;
+}
+
 body {
-  border: 5px solid yellow;
   background: url("../images/bg.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 110% 110%;
+  background-position: center center;
+}
+
+.container-fluid {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    background: url("../images/cerveja.png");
+    background-repeat: no-repeat;
+    background-size: 60vh;
+    background-position: center center;
+}
+
+.castanha-left-top{
+  position: absolute;
+  height: auto;
+  width: 11vw;
+  top: 70vh;
+}
+
+.folha-left-bot{
+  position: absolute;
+  height: auto;
+  width: 17vw;
+  top: 23vh;
+  left: -130px;
+}
+
+.castanha-right-top{
+  position: absolute;
+  height: auto;
+  width: 11vw;
+  right: -15px;
+  bottom: -10px;
+
+}
+
+.castanha-right-bot{
+  position: absolute;
+  height: auto;
+  width: 11vw;
+  right: -15px;
+  top: 12vh;
 }

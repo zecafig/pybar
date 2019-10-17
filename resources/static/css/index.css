@@ -1,33 +1,23 @@
+header {
+  padding: 16px;
+}
+
 h1 {
-  color: blue;
+  color: black;
 }
 
-.index {
-  border: 1px solid red;
-  display: flex;
-  height: 100vh;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
+.col-md-6, .col-md-3 {
+  border: 3px solid red;
 }
 
-.content-index {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  flex-direction: column;
-  height: 100%;
-  width: auto;
-  border: 1px solid blue;
+.row {
+  margin-top: 35vh;
 }
 
-.form-index {
-  width: 20%;
-  margin-right: 7%;
-  padding: 0px 0px 5% 0px;
-  padding: 10px;
+form {
+  width: 60%;
 }
 
-#beer {
-  size: 400px;
+.text {
+  padding-left: 17vw;
 }
